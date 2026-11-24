@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Bundled JDK (too large for GitHub)
+jdk17/
+jdk17.zip
+
+# Hadoop binaries
+hadoop/
+
+# Generated data & outputs (reproducible via scripts)
+data/
+outputs/
+models/
+stream_inbox/
+_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
